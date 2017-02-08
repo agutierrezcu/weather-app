@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "eslint.options": {
+    "configFile": "package.json"
+  },
+  "eslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.eol": "\n",
+  "vsicons.presets.angular": false,
+  "editor.tabCompletion": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/.chrome": true
+  }
+}

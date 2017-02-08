@@ -1,0 +1,5 @@
+#
+## Set eol to all files in the repository
+#
+
+*.* eol=lf

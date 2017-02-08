@@ -1,0 +1,25 @@
+{
+  "version": "0.1.0",
+  "command": "yarn",
+  "isShellCommand": true,
+  "showOutput": "always",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "predebug",
+      "args": [
+        "run",
+        "predebug"
+      ],
+      "isWatching": false
+    },
+    {
+      "taskName": "build",
+      "isBuildCommand": true,
+      "args": [
+        "run",
+        "build"
+      ]
+    }
+  ]
+}

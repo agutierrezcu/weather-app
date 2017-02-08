@@ -1,0 +1,16 @@
+# Don't check auto-generated stuff into git
+build
+node_modules
+yarn-error.log
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# VS Code
+.chrome
+
+# Yarn
+yarn.lock
+
