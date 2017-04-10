@@ -30,7 +30,7 @@ const Title = styled.h2`
   }
 `;
 
-const SearchWrapper = styled(TopBar) `
+const SearchWrapper = styled(TopBar)`
   justify-content: flex-end;
   border-bottom: 0;
 `;
@@ -50,12 +50,12 @@ const App = (props, context) => (
 App.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element),
-  ]).isRequired,
+    PropTypes.arrayOf(PropTypes.element)
+  ]).isRequired
 };
 
 App.contextTypes = {
-  router: PropTypes.object.isRequired,
+  router: PropTypes.object.isRequired
 };
 
 export default App;
